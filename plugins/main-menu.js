@@ -315,7 +315,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `*${ucapan()} ${name}*`,
             description: menuu,
-            buttonText: '🗃KLIK DISINI🗃',
+            buttonText: 'Click Here',
             listType: 1,
             footerText: "📮 𝚂ilahkan Pilih Menu Dibawah Ini",
             mtype: 'listMessage',
@@ -445,7 +445,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 },{
                   "title": `💳⟩» SEWA BOT`,
                   "description": "Sewa kak, awokawok",
-                  "rowId": `.sewazifa`
+                  "rowId": `.sewaRamaBotz`
                 },{
                   "title": "🌈⟩» INFO BOT",
                   "description": "Menampilkan Menu Info",
@@ -547,7 +547,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                {
              quickReplyButton: {
         displayText: '🪀SEWABOT🪀',
-               id: '.sewazifa',
+               id: '.sewaramabotz',
              }
 
            },
